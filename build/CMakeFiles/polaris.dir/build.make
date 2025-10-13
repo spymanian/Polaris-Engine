@@ -83,17 +83,81 @@ CMakeFiles/polaris.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/polaris.dir/src/main.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nycalla/code/Polaris-Engine/src/main.cpp -o CMakeFiles/polaris.dir/src/main.cpp.s
 
+CMakeFiles/polaris.dir/src/scheduler.cpp.o: CMakeFiles/polaris.dir/flags.make
+CMakeFiles/polaris.dir/src/scheduler.cpp.o: ../src/scheduler.cpp
+CMakeFiles/polaris.dir/src/scheduler.cpp.o: CMakeFiles/polaris.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nycalla/code/Polaris-Engine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/polaris.dir/src/scheduler.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/polaris.dir/src/scheduler.cpp.o -MF CMakeFiles/polaris.dir/src/scheduler.cpp.o.d -o CMakeFiles/polaris.dir/src/scheduler.cpp.o -c /home/nycalla/code/Polaris-Engine/src/scheduler.cpp
+
+CMakeFiles/polaris.dir/src/scheduler.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/polaris.dir/src/scheduler.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nycalla/code/Polaris-Engine/src/scheduler.cpp > CMakeFiles/polaris.dir/src/scheduler.cpp.i
+
+CMakeFiles/polaris.dir/src/scheduler.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/polaris.dir/src/scheduler.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nycalla/code/Polaris-Engine/src/scheduler.cpp -o CMakeFiles/polaris.dir/src/scheduler.cpp.s
+
+CMakeFiles/polaris.dir/src/world.cpp.o: CMakeFiles/polaris.dir/flags.make
+CMakeFiles/polaris.dir/src/world.cpp.o: ../src/world.cpp
+CMakeFiles/polaris.dir/src/world.cpp.o: CMakeFiles/polaris.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nycalla/code/Polaris-Engine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/polaris.dir/src/world.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/polaris.dir/src/world.cpp.o -MF CMakeFiles/polaris.dir/src/world.cpp.o.d -o CMakeFiles/polaris.dir/src/world.cpp.o -c /home/nycalla/code/Polaris-Engine/src/world.cpp
+
+CMakeFiles/polaris.dir/src/world.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/polaris.dir/src/world.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nycalla/code/Polaris-Engine/src/world.cpp > CMakeFiles/polaris.dir/src/world.cpp.i
+
+CMakeFiles/polaris.dir/src/world.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/polaris.dir/src/world.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nycalla/code/Polaris-Engine/src/world.cpp -o CMakeFiles/polaris.dir/src/world.cpp.s
+
+CMakeFiles/polaris.dir/src/agent.cpp.o: CMakeFiles/polaris.dir/flags.make
+CMakeFiles/polaris.dir/src/agent.cpp.o: ../src/agent.cpp
+CMakeFiles/polaris.dir/src/agent.cpp.o: CMakeFiles/polaris.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nycalla/code/Polaris-Engine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/polaris.dir/src/agent.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/polaris.dir/src/agent.cpp.o -MF CMakeFiles/polaris.dir/src/agent.cpp.o.d -o CMakeFiles/polaris.dir/src/agent.cpp.o -c /home/nycalla/code/Polaris-Engine/src/agent.cpp
+
+CMakeFiles/polaris.dir/src/agent.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/polaris.dir/src/agent.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nycalla/code/Polaris-Engine/src/agent.cpp > CMakeFiles/polaris.dir/src/agent.cpp.i
+
+CMakeFiles/polaris.dir/src/agent.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/polaris.dir/src/agent.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nycalla/code/Polaris-Engine/src/agent.cpp -o CMakeFiles/polaris.dir/src/agent.cpp.s
+
+CMakeFiles/polaris.dir/src/visualize.cpp.o: CMakeFiles/polaris.dir/flags.make
+CMakeFiles/polaris.dir/src/visualize.cpp.o: ../src/visualize.cpp
+CMakeFiles/polaris.dir/src/visualize.cpp.o: CMakeFiles/polaris.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nycalla/code/Polaris-Engine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/polaris.dir/src/visualize.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/polaris.dir/src/visualize.cpp.o -MF CMakeFiles/polaris.dir/src/visualize.cpp.o.d -o CMakeFiles/polaris.dir/src/visualize.cpp.o -c /home/nycalla/code/Polaris-Engine/src/visualize.cpp
+
+CMakeFiles/polaris.dir/src/visualize.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/polaris.dir/src/visualize.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nycalla/code/Polaris-Engine/src/visualize.cpp > CMakeFiles/polaris.dir/src/visualize.cpp.i
+
+CMakeFiles/polaris.dir/src/visualize.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/polaris.dir/src/visualize.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nycalla/code/Polaris-Engine/src/visualize.cpp -o CMakeFiles/polaris.dir/src/visualize.cpp.s
+
 # Object files for target polaris
 polaris_OBJECTS = \
-"CMakeFiles/polaris.dir/src/main.cpp.o"
+"CMakeFiles/polaris.dir/src/main.cpp.o" \
+"CMakeFiles/polaris.dir/src/scheduler.cpp.o" \
+"CMakeFiles/polaris.dir/src/world.cpp.o" \
+"CMakeFiles/polaris.dir/src/agent.cpp.o" \
+"CMakeFiles/polaris.dir/src/visualize.cpp.o"
 
 # External object files for target polaris
 polaris_EXTERNAL_OBJECTS =
 
 polaris: CMakeFiles/polaris.dir/src/main.cpp.o
+polaris: CMakeFiles/polaris.dir/src/scheduler.cpp.o
+polaris: CMakeFiles/polaris.dir/src/world.cpp.o
+polaris: CMakeFiles/polaris.dir/src/agent.cpp.o
+polaris: CMakeFiles/polaris.dir/src/visualize.cpp.o
 polaris: CMakeFiles/polaris.dir/build.make
 polaris: CMakeFiles/polaris.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/nycalla/code/Polaris-Engine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable polaris"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/nycalla/code/Polaris-Engine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable polaris"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/polaris.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

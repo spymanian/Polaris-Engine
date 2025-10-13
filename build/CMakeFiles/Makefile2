@@ -64,6 +64,7 @@ CMAKE_BINARY_DIR = /home/nycalla/code/Polaris-Engine/build
 
 # The main recursive "all" target.
 all: CMakeFiles/polaris.dir/all
+all: CMakeFiles/simulon.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -72,6 +73,7 @@ preinstall:
 
 # The main recursive "clean" target.
 clean: CMakeFiles/polaris.dir/clean
+clean: CMakeFiles/simulon.dir/clean
 .PHONY : clean
 
 #=============================================================================
@@ -81,12 +83,12 @@ clean: CMakeFiles/polaris.dir/clean
 CMakeFiles/polaris.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/polaris.dir/build.make CMakeFiles/polaris.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/polaris.dir/build.make CMakeFiles/polaris.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/nycalla/code/Polaris-Engine/build/CMakeFiles --progress-num=1,2 "Built target polaris"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/nycalla/code/Polaris-Engine/build/CMakeFiles --progress-num=1,2,3,4,5,6 "Built target polaris"
 .PHONY : CMakeFiles/polaris.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/polaris.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/nycalla/code/Polaris-Engine/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/nycalla/code/Polaris-Engine/build/CMakeFiles 6
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/polaris.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/nycalla/code/Polaris-Engine/build/CMakeFiles 0
 .PHONY : CMakeFiles/polaris.dir/rule
@@ -99,6 +101,32 @@ polaris: CMakeFiles/polaris.dir/rule
 CMakeFiles/polaris.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/polaris.dir/build.make CMakeFiles/polaris.dir/clean
 .PHONY : CMakeFiles/polaris.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/simulon.dir
+
+# All Build rule for target.
+CMakeFiles/simulon.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simulon.dir/build.make CMakeFiles/simulon.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simulon.dir/build.make CMakeFiles/simulon.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/nycalla/code/Polaris-Engine/build/CMakeFiles --progress-num=7,8,9,10,11 "Built target simulon"
+.PHONY : CMakeFiles/simulon.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/simulon.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/nycalla/code/Polaris-Engine/build/CMakeFiles 5
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/simulon.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/nycalla/code/Polaris-Engine/build/CMakeFiles 0
+.PHONY : CMakeFiles/simulon.dir/rule
+
+# Convenience name for target.
+simulon: CMakeFiles/simulon.dir/rule
+.PHONY : simulon
+
+# clean rule for target.
+CMakeFiles/simulon.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simulon.dir/build.make CMakeFiles/simulon.dir/clean
+.PHONY : CMakeFiles/simulon.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

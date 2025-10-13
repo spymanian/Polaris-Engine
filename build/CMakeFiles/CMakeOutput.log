@@ -228,3 +228,18 @@ Parsed CXX implicit link information from above output:
   implicit fwks: []
 
 
+Performing C++ SOURCE FILE Test HAS_FLTO succeeded with the following output:
+Change Dir: /home/nycalla/code/Polaris-Engine/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_ed01b/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_ed01b.dir/build.make CMakeFiles/cmTC_ed01b.dir/build
+gmake[1]: Entering directory '/home/nycalla/code/Polaris-Engine/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_ed01b.dir/src.cxx.o
+/usr/bin/c++ -DHAS_FLTO  -flto -fno-fat-lto-objects -std=gnu++20 -o CMakeFiles/cmTC_ed01b.dir/src.cxx.o -c /home/nycalla/code/Polaris-Engine/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_ed01b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ed01b.dir/link.txt --verbose=1
+/usr/bin/c++ CMakeFiles/cmTC_ed01b.dir/src.cxx.o -o cmTC_ed01b  -flto 
+gmake[1]: Leaving directory '/home/nycalla/code/Polaris-Engine/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
