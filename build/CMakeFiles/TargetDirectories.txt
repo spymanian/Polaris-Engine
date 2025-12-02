@@ -1,4 +1,0 @@
-/home/nycalla/code/Polaris-Engine/build/CMakeFiles/polaris.dir
-/home/nycalla/code/Polaris-Engine/build/CMakeFiles/simulon.dir
-/home/nycalla/code/Polaris-Engine/build/CMakeFiles/edit_cache.dir
-/home/nycalla/code/Polaris-Engine/build/CMakeFiles/rebuild_cache.dir

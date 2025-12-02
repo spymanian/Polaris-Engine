@@ -1,1 +1,0 @@
-/usr/bin/c++ -O3 -DNDEBUG CMakeFiles/polaris.dir/src/main.cpp.o CMakeFiles/polaris.dir/src/scheduler.cpp.o CMakeFiles/polaris.dir/src/world.cpp.o CMakeFiles/polaris.dir/src/agent.cpp.o CMakeFiles/polaris.dir/src/visualize.cpp.o -o polaris  -L/usr/lib/x86_64-linux-gnu  -lSDL2 

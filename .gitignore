@@ -39,3 +39,16 @@
 
 # debug information files
 *.dwo
+
+# Build directory
+build/
+
+# ImGui state
+imgui.ini
+
+# Generated data files
+stats.csv
+run*.txt
+
+# User config (if you want users to have their own)
+config.json

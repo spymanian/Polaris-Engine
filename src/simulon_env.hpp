@@ -1,8 +1,10 @@
 #pragma once
 #include "world.hpp"
+#include "config.hpp"
 #include <string>
 
 class SimulonEnv {
+    SimulationConfig config_;
     World world_;
     double dt_;
 public:

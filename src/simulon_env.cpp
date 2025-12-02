@@ -1,8 +1,9 @@
 #include "simulon_env.hpp"
+#include "neural_network.hpp"
 #include <pybind11/pybind11.h>
 #include <pybind11/stl.h>
 #include <SDL2/SDL.h>
-#include <vector>        // <-- needed for std::vector
+#include <vector>
 #include <string>
 
 #define STB_IMAGE_WRITE_IMPLEMENTATION
@@ -11,7 +12,13 @@
 namespace py = pybind11;
 
 SimulonEnv::SimulonEnv(int nAgents, unsigned seed, double dt)
-    : world_(nAgents, seed), dt_(dt) {}
+    : config_(SimulationConfig::create_default()),
+      world_(config_, seed), 
+      dt_(dt) {
+    config_.num_agents = nAgents;
+    config_.seed = seed;
+    config_.dt = dt;
+}
 
 void SimulonEnv::step() {
     world_.update(dt_);
